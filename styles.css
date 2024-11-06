@@ -1,0 +1,154 @@
+/* Hintergrund des gesamten Körpers */
+body {
+    background: linear-gradient(135deg, #d4a0e4, #a53fe9); /* Sanfter blauer Farbverlauf */
+    font-family: 'Roboto', sans-serif; /* Moderne Schriftart für den gesamten Text */
+    margin: 0;
+    padding: 20px;
+    height: 100h;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+.search-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 75px;
+  left: 25%;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #64049c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4606f5;
+}
+  select {
+    margin-left: 410px;
+    padding: px;
+    font-size: 16px;
+    background-color: #604e7d;
+  }
+  /* Verbesserter Stil für h1 */
+  h1 {
+    color: #ffffff; /* Weißer Text für guten Kontrast */
+    font-family: 'Montserrat', sans-serif; /* Moderne Schriftart für den Titel */
+    font-size: 3rem; /* Größere Schriftgröße für den Titel */
+    text-align: center;
+    margin: 20px 0;
+    letter-spacing: 2px; /* Etwas mehr Abstand zwischen den Buchstaben */
+    text-transform: uppercase; /* Großbuchstaben für den Titel */
+    background: linear-gradient(135deg, #001b01, #ab07fd); /* Grüner Farbverlauf als Hintergrund */
+    padding: 20px 40px;
+    border-radius: 8px; /* Abgerundete Ecken */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Weicher Schatten für Tiefe */
+    transition: all 0.3s ease; /* Sanfte Übergänge bei Hover-Effekten */
+  }
+  
+  h1:hover {
+    transform: scale(1.05); /* Leicht vergrößern bei Hover */
+    box-shadow: 0 8px 20px rgba(37, 0, 0, 0.2); /* Verstärkter Schatten */
+  }
+  
+  /* Verbesserter Stil für p */
+  p {
+    font-family: 'Verdana', sans-serif; /* Beibehalten der Verdana Schriftart */
+    font-size: 1.25rem; /* Größere Schriftgröße für bessere Lesbarkeit */
+    color: #333; /* Dunkler Text für guten Kontrast */
+    line-height: 1.6; /* Bessere Lesbarkeit durch größere Zeilenhöhe */
+    text-align: center;
+    max-width: 800px; /* Maximale Breite für den Textblock */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(162, 52, 199, 0.8); /* Leicht transparenter Hintergrund */
+    border-radius: 10px; /* Abgerundete Ecken */
+    box-shadow: 0 4px 10px rgba(56, 2, 44, 0.1); /* Weicher Schatten */
+    transition: all 0.3s ease; /* Sanfte Übergänge */
+  }
+  
+  p:hover {
+    transform: scale(1.02); /* Leicht vergrößern bei Hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Verstärkter Schatten */
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 100;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #d600eec6;
+  }
+
+  .active {
+  background-color: #d600eec6;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 236, 161);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 236, 161);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 236, 161);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(98, 0, 255);
+  }
+  a:button {
+    float: right;
+    padding: 12px 25px;
+    font-size: 18px;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
