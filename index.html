@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moderne Navbar</title>
+  <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+      <ul>
+        <li><a class="active" href="/index.html">Home</a></li>
+        <li><a href="#about">Über uns</a></li>
+        <li><a href="#services">Dienstleistungen</a></li>
+        <li><a href="#contact">Kontakt</a></li>
+        <select id="country" name="country">
+            <option value="de">Deutsch</option>
+            <option value="en">Englisch</option>
+            </select>
+      </ul>
+    </nav>
+
+  <div class="content">
+
+    <h1>Online Shop</h1>
+    <p>Hier kriegst du was du brauchst!</p>
+
+    <form>
+        <div class="container">
+            <form action="#" method="POST">
+              <label for="username">Benutzername:</label>
+              <input type="text" id="username" name="username" required>
+              <label for="password">Passwort:</label>
+              <input type="password" id="password" name="password" required>            
+              <button style="position: absolute; top: 465px; left: 900px;">Passwort vergessen</button>
+              <a href="/HTML/seite2.html">Einloggen</a>
+     </form>
+  </div>
+  <script src="/JS/index.js"></script> 
+</body>
+</html>
